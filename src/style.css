@@ -1,7 +1,48 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+@import url("https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@600&family=Nanum+Gothic:wght@400;700;800&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap");
 
 .body-background {
   background-color: green;
 }
 
-.;
+.card {
+  background-color: white;
+  width: 300px;
+  height: 470px;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+  border-radius: 1rem;
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+
+.numero {
+  font-family: "Sour Gummy", serif;
+  font-size: 10rem;
+}
+
+/*
+.heart {
+  color: red;
+  content: ♥;
+}
+
+/*.normal: .spade {
+  content: ♠;
+}
+
+.normal::before .diamond {
+  content: ♦;
+}
+*/
+
+.normal::before {
+  content: ♣;
+}
+
+.normal::after {
+  content: ♣;
+}
+
+/* ♦ ♥ ♠ ♣ */
