@@ -10,39 +10,15 @@
   width: 300px;
   height: 470px;
   margin: auto;
-  text-align: center;
   justify-content: center;
   border-radius: 1rem;
   box-sizing: border-box;
-  font-size: 1rem;
+  font-size: 6rem;
 }
 
 .numero {
   font-family: "Sour Gummy", serif;
   font-size: 10rem;
+  color: black;
+  text-align: center;
 }
-
-/*
-.heart {
-  color: red;
-  content: ♥;
-}
-
-/*.normal: .spade {
-  content: ♠;
-}
-
-.normal::before .diamond {
-  content: ♦;
-}
-*/
-
-.normal::before {
-  content: ♣;
-}
-
-.normal::after {
-  content: ♣;
-}
-
-/* ♦ ♥ ♠ ♣ */
