@@ -1,6 +1,6 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
 @import url("https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@600&family=Nanum+Gothic:wght@400;700;800&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap");
-
+/*Angel Rausseo*/
 .body-background {
   background-color: green;
 }
@@ -19,6 +19,6 @@
 .numero {
   font-family: "Sour Gummy", serif;
   font-size: 10rem;
-  color: black;
+  color: black !important;
   text-align: center;
 }
